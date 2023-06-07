@@ -3,7 +3,7 @@
 - Remove all dangling images
   - `docker rmi $(docker images --filter "dangling=true" -q)`
 ## Run
-- How to do volumes
+- How to do volumes ```docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]```
   -  `$(pwd)/volume:/volume` for in same folder
 - Options
   - `-v`: volume
