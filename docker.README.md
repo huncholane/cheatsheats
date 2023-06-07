@@ -22,3 +22,6 @@
   - `-i`: allows STDIN
   - `-t`: get a terminal
   - `--name` yep you have to type out name
+
+## Favorite Images
+- [Node](https://hub.docker.com/_/node) `node:20-alpine3.17`
