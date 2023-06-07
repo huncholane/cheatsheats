@@ -1,4 +1,7 @@
 # Docker Cheatsheet
+## Pro Tips
+- Copy .gitignore into .dockerignore
+
 ## Mantainance 
 ### Remove
 - Remove all dangling images
