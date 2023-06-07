@@ -1,9 +1,13 @@
 # Docker Cheatsheet
-## Removing stuff
+## Mantainance 
+### Remove
 - Remove all dangling images
   - `docker rmi $(docker images --filter "dangling=true" -q)`
-## Run
-- How to do volumes ```docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]```
+
+## Single imagg
+### Run
+```docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]```
+- How to do volumes
   -  `$(pwd)/volume:/volume` for in same folder
 - Options
   - `-v`: volume
