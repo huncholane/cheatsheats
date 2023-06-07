@@ -1,1 +1,2 @@
-- `docker rmi $(docker images --filter "dangling=true" -q)`
+- Remove all dangling
+  -- `docker rmi $(docker images --filter "dangling=true" -q)`
