@@ -1,5 +1,3 @@
-Sure! Here's a Docker cheat sheet in the form of a README with some common complex commands and concepts:
-
 ```markdown
 # Docker Cheat Sheet
 
